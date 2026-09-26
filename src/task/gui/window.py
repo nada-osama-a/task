@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QPushButton
-from task.status_widget import StatusWidget
+from task.gui.status_widget import StatusWidget
 #import mediator
 class Window(QMainWindow):
     def __init__(self):
